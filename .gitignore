@@ -3,8 +3,27 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# python
+nature_env/*
+
 # C extensions
 *.so
+
+# react
+.idea/
+.vscode/
+node_modules/
+build
+.DS_Store
+*.tgz
+my-app*
+template/src/__tests__/__snapshots__/
+lerna-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.changelog
+.npm/
 
 # Distribution / packaging
 .Python
@@ -112,3 +131,26 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+nature_env/Include/site/python3.9/greenlet/greenlet.h
+.expo/README.md
+nature_app/migrations/versions/f91b47a0b72f_.py
+nature_app/migrations/versions/60dfff74f6e2_.py
+nature_app/migrations/script.py.mako
+nature_app/migrations/README
+nature_app/migrations/env.py
+
+node_modules/
+.expo/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+
+classnaturesounds/README.md
